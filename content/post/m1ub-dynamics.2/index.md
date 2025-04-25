@@ -14,6 +14,8 @@ tags = [
 ]
 image = "cg_photo.png"
 math = true
-draft = true
+draft = false
 +++
+
+lallala
 

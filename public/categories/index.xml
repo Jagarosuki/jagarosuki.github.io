@@ -7,18 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Nilton Aranda</copyright>
-        <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Personal Research</title>
-        <link>http://localhost:1313/categories/personal-research/</link>
-        <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/personal-research/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/personal-research/research.jpg" alt="Featured image of post Personal Research" /&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>GROMACS</title>
         <link>http://localhost:1313/categories/gromacs/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/gromacs/</guid>
         <description>&lt;img src="http://localhost:1313/categories/gromacs/Gromacs%20Logo%20Blue.png" alt="Featured image of post GROMACS" /&gt;</description>
@@ -26,7 +18,7 @@
         <item>
         <title>Molecular Dynamics</title>
         <link>http://localhost:1313/categories/molecular-dynamics/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/molecular-dynamics/</guid>
         <description>&lt;img src="http://localhost:1313/categories/molecular-dynamics/MD.jpg" alt="Featured image of post Molecular Dynamics" /&gt;</description>
@@ -34,10 +26,18 @@
         <item>
         <title>PLUMED</title>
         <link>http://localhost:1313/categories/plumed/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/plumed/</guid>
         <description>&lt;img src="http://localhost:1313/categories/plumed/plumed.png" alt="Featured image of post PLUMED" /&gt;</description>
+        </item>
+        <item>
+        <title>Personal Research</title>
+        <link>http://localhost:1313/categories/personal-research/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/personal-research/</guid>
+        <description>&lt;img src="http://localhost:1313/categories/personal-research/research.jpg" alt="Featured image of post Personal Research" /&gt;</description>
         </item>
         
     </channel>

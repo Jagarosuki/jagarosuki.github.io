@@ -2,7 +2,7 @@
 author = "Nilton Aranda"
 title = "Analysing Conformational States of Ubiquitin using MD Simulations"
 date = "2025-03-11"
-description = "Research project: Stieglitz Lab - Blizzard Institute"
+description = "Computational Research Project"
 categories = [
     "Personal Research",
     "Molecular Dynamics",
@@ -14,16 +14,20 @@ tags = [
 ]
 image = "coms_ub.png"
 math = true
-draft = true
+draft = false
 +++
 
 <p style="font-size: 0.75em; line-height: 1.6;">
 <strong>Title Card:</strong> Calculating torsion angles based of Centres of Mass (COMs) of ubiquitin monomers. COM 1 (green) aa1-36; COM 2 (red) aa37-70; COM 3 (blue) aa77-113; COM 4 (orange) aa113-146.
 </p>
 
+## Introduction
+
+Recently I have been quite interested in the conformational landscape that is possible with different ubiquitin chains and linkages. Naturally as an undergraduate student I don't have access to a lab to perform SAXS experiments for instance so I figured I should try to run some simulations instead. I'm not sure anything could prepared me for the torment of trying to compile or even use software packages with no programming experience at all.
+
 ## What are Molecular Dynamics (MD) Simulations?
 
-
+Molecular Dynamics (MD) Simulations are
 
 
 ### Forcefields

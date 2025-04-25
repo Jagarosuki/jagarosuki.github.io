@@ -6,6 +6,45 @@
         <description>Recent content in Molecular Dynamics on Nilton Aranda</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>Nilton Aranda</copyright><atom:link href="http://localhost:1313/categories/molecular-dynamics/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>Nilton Aranda</copyright>
+        <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/molecular-dynamics/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Using GROMACS &amp; PLUMED to run Coarse Grained MD Simulations</title>
+        <link>http://localhost:1313/p/using-gromacs-plumed-to-run-coarse-grained-md-simulations/</link>
+        <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/using-gromacs-plumed-to-run-coarse-grained-md-simulations/</guid>
+        <description>&lt;img src="http://localhost:1313/p/using-gromacs-plumed-to-run-coarse-grained-md-simulations/cg_photo.png" alt="Featured image of post Using GROMACS &amp; PLUMED to run Coarse Grained MD Simulations" /&gt;&lt;p&gt;lallala&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Analysing Conformational States of Ubiquitin using MD Simulations</title>
+        <link>http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/</link>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/</guid>
+        <description>&lt;img src="http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/coms_ub.png" alt="Featured image of post Analysing Conformational States of Ubiquitin using MD Simulations" /&gt;&lt;p style=&#34;font-size: 0.75em; line-height: 1.6;&#34;&gt;
+&lt;strong&gt;Title Card:&lt;/strong&gt; Calculating torsion angles based of Centres of Mass (COMs) of ubiquitin monomers. COM 1 (green) aa1-36; COM 2 (red) aa37-70; COM 3 (blue) aa77-113; COM 4 (orange) aa113-146.
+&lt;/p&gt;
+&lt;h2 id=&#34;what-are-molecular-dynamics-md-simulations&#34;&gt;What are Molecular Dynamics (MD) Simulations?
+&lt;/h2&gt;&lt;h3 id=&#34;forcefields&#34;&gt;Forcefields
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;$E\left(r^N\right) = E_{\text{bonds}} + E_{\text{angles}} + E_{\text{dihedrals}} + E_{\text{nonbonded}}$&lt;/p&gt;
+&lt;p&gt;$E_{\text{bonds}} = \sum_{\text{bonds}} K_r (r - r_0)^2$&lt;/p&gt;
+&lt;p&gt;$E_{\text{angles}} = \sum_{\text{angles}} k_\theta (\theta - \theta_0)^2$&lt;/p&gt;
+&lt;p&gt;$E_{\text{dihedrals}} = \sum_{\text{dihedrals}} \left( \frac{V_1}{2} [1 + \cos(\phi - \phi_1)] + \frac{V_2}{2} [1 - \cos(2\phi - \phi_2)] + \frac{V_3}{2} [1 + \cos(3\phi - \phi_3)] + \frac{V_4}{2} [1 - \cos(4\phi - \phi_4)] \right)$&lt;/p&gt;
+&lt;p&gt;$E_{\text{nonbonded}} = \sum_{i&amp;gt;j} f_{ij} \left( \frac{A_{ij}}{r_{ij}^{12}} - \frac{C_{ij}}{r_{ij}^6} + \frac{q_i q_j e^2}{4 \pi \epsilon_0 r_{ij}} \right)$&lt;/p&gt;
+&lt;p&gt;$\text{with the combining rules} \quad A_{ij} = \sqrt{A_{ii} A_{jj}} \quad \text{and} \quad C_{ij} = \sqrt{C_{ii} C_{jj}}$&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/tw-65UvhOhs&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        
     </channel>
 </rss>

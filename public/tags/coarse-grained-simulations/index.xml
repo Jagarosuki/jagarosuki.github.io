@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Coarse Grained Simulations on Nilton Aranda</title>
+        <link>http://localhost:1313/tags/coarse-grained-simulations/</link>
+        <description>Recent content in Coarse Grained Simulations on Nilton Aranda</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Nilton Aranda</copyright>
+        <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/coarse-grained-simulations/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Using GROMACS &amp; PLUMED to run Coarse Grained MD Simulations</title>
+        <link>http://localhost:1313/p/using-gromacs-plumed-to-run-coarse-grained-md-simulations/</link>
+        <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/using-gromacs-plumed-to-run-coarse-grained-md-simulations/</guid>
+        <description>&lt;img src="http://localhost:1313/p/using-gromacs-plumed-to-run-coarse-grained-md-simulations/cg_photo.png" alt="Featured image of post Using GROMACS &amp; PLUMED to run Coarse Grained MD Simulations" /&gt;&lt;p&gt;lallala&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
