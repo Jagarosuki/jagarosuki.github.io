@@ -1,0 +1,133 @@
+---
+author: "Nilton Aranda"
+title: "Nedd 4 Binding Protein 1 (N4BP1) CUE domain recognition of M1-linked Ubiquitin"
+date: "2025-02-19"
+description: >
+  Research project: Stieglitz Lab - Blizzard Institute
+categories:
+  - "Personal Research"
+  - ""
+tags:
+  - "Gemonic Analysis"
+  - "Structural Biology"
+  - "Ubiquitin"
+image: "Figure_1.jpeg"
+---
+
+<p style="font-size: 0.75em; line-height: 1.6;">
+<strong>Fig 1. N4BP1 Structure:</strong> Schematic-structural Representation of N4BP1 Structure using Mouse and Human domain boundaries from Kliza & Song et al. - with the latter in brackets - indicated using amino acid residues. N4BP1 domain structures used in the schematic were generated using AlphaFold 3; KH (pTM=0.86), UBM (pTM=0.39), UBA (pTM=0.76), RNase (pTM=0.94) , CUE (pTM=0.78).
+</p>
+
+## Background
+
+### What is N4BP1?
+
+N4BP1 (NEDD4 Binding Protein 1) is a dimerisation-dependent linear ubiquitin reader <a href="#ref-2">[2]</a>, which recognises M1-linked (linear) ubiquitin (Ub) chains. It has been shown that N4BP1 negatively regulates the TNFR signalling pathway by competing with RIP1 and NEMO in selectively binding to linear Ub chains, or alternatively, preventing linear ubiquitination of LUBAC substrates <a href="#ref-3">[3]</a>,<a href="#ref-4">[4]</a>. N4BP1 is composed of five domains (Fig. 1), with the distal three domains, the divergent UBA (UB associated), NYN RNase and divergent CUE domain implicated in being responsible for linear Ub specificity <a href="#ref-2">[2]</a>.
+
+### Recent Developments
+
+A recent x-ray crystallography study by Gitlin et al.<a href="#ref-5">[5]</a>, obtained a crystal structure for the CUE domain of N4BP1 in complex with M1-linked diUB (PDB: 8t48), placing the CUE domain centrally between the distal and proximal UB. The model produced by Kliza et al. using chemical shift perturbation values places the CUE domain in the same region, but rotated horizontally approximately ∼90◦ about the terminal α3-helix (Fig. 2).
+
+![Click on figure for higher resolution](Figure_2.jpeg)
+
+<p style="font-size: 0.75em; line-height: 1.6;">
+  <strong>Fig 2. Proposed modes of CUE-Ub binding:</strong> Zoomed in structure at bottom of both figures showing key interacting residues in both structures. LEU8, ILE44, VAL70 Canonical “hydrophobic patch” and hydrophobic interfacing residues shown in magenta and purple respectively. Interacting hydrogen-bonding (non-backbone) residues shown in dark green. <strong>A</strong> Dimerisation-dependent CUE binding model from Kliza et al. <strong>B</strong> X-ray crystal structure of CUE-diUb obtained by Gitlin et al. (PDB: 8t48)
+</p>
+
+While both models have a conformation of the CUE domain which facilitates interfacing of the ”canonical” Ubiquitin LEU8, ILE44, VAL70 hydrophobic patch, it is notable is that PRO863 is interfacing with the patch in the dimerisation model (Fig. 3C), but not in the crystal structure. is also quite a high energy salt bridge present in the crystal structure between Ub-ARG42 and CUE-ASP893 (Fig. 2B, bottom). It has been previously noted that salt bridges can aid conformational specificity, particularly between secondary structures <a href="#ref-6">[6]</a>. One diﬀerence between the two structures that can easily go unnoticed, is the torsion angle of the distal Ub which is diﬀerent in both structures. By analysing the conservation of the N4BP1 CUE domain across 221 diﬀerent species, we can conclude which CUE-Ub binding model is most likely to exist in vivo, but also suggest how it might be possible to detect other domains that might bind in-between a proximal and distal ubiquitin via the canonical hydrophobic patch.
+
+## Investigation
+### Results
+#### Multiple Sequence Alignment (MSA) analysis of conserved CUE binding motifs
+
+MSA analysis of the N4BP1 CUE domains of 221 diﬀerent species showed areas of 100% conservation, the most notable of which being residues 883-889 (Fig. 3D/G) - the α3-helix - and the 861-862, IF motif (Fig. 3A/G) which has also been noted previously <a href="#ref-3">[3]</a>. PRO863 was also highly conserved as it likely functions as a helix break for the α1-helix. It should be noted that, while not present in Fig. 3, LEU890 and V AL891 do not have a 100% conservation rate, and that in the case of LEU890, Human and Mouse N4BP1 represents the minority of sequences (10.41%) that contain leucine as opposed to methionine (89.59%). The QRS (845-457) motif at the start of CUE domain is exhibited in 99.55% of the sequences in the alignment.
+
+![Click on figure for higher resolution](Figure_3.jpeg)
+
+<p style="font-size: 0.75em; line-height: 1.6;">
+  <strong>Fig 3. Conserved binding motif in N4BP1 CUE domain:</strong> MSA alignments visualised using AL VIS<a href="#ref-8">[8]</a>. Conserved residues responsible for interfacing with LEU8, ILE44, V AL70 patch shown in purple. PRO863 shown in yellow. GLN 867 shown in light blue. Conserved alanine residues ALA886 & ALA889 shown in orange. <strong>A</strong> Sequence alignment of the IF motif, with residues ranked by hydrophobicity. <strong>B</strong> CUE-Ub hydrophobic interface in Gitlin et al. crystal structure. <strong>C</strong> CUE-Ub hydrophobic interface in model by Kliza et al. Including highly conserved residues present at the interface in the crystal structure. <strong>D</strong> Sequence alignment of the CUE terminal α3-helix, with residues ranked by size. <strong>E</strong> Space filling representation of ALA889 & ALA886 in Gitlin et al. crystal structure. <strong>F</strong> Space filling representation of ALA889 & ALA886 in Kliza et al. model. <strong>G</strong> N4BP1 Mouse CUE domain highlighted to show conserved regions. Green indicates conservation in at least 95% of all sequences. Yellow indicates conservation in at least 85% of all sequences. <strong>H</strong> Alignment of other related CUE domains. Sequence is highlighted blue based of percentage identity of shared residues.
+</p>
+
+Apart from these three main areas, the α3-helix, the the IF motif + PRO863, and the QRS motif at the start of the CUE domain, there are many sequences that are divergent from the consensus particularly around the α1-helix & α2-helix.
+
+### Discussion
+#### MSA shows Crystal Structure to be more likely _in vivo_
+
+This report would argue that the highly conserved nature of ALA889 and ALA886 (Fig. 3D) is extremely strong evidence in favour of the crystal structure from Gitlin et al. being true _in vivo_. In the sequence alignment, these residues displayed 100% conservation. When looking at a space filling representation of these alanine residues in the crystal structure (Fig. 3E) it becomes obvious that if these residues were spatially any larger they would interfere with the hydrophobic binding interface. In the model by Kliza et al., these residues are pointing out (Fig. 3F) and could very much be substituted with another residue with a high helix-propensity to maintain the secondary structure. Thus this is why no such substitutions are present in the sequence alignment. Considering other regions of the sequence alignment are not so highly conserved, it should not be an issue of insuﬃcient sequence data. If we look further into the sequence alignment data, it can be seen that all the residues interfacing with the LEU8, ILE44, VAL70, hydrophobic patch (Fig. B) in the crystal structure are all highly conserved (100%). While this is technically true of the interfacing residues in the model by Kliza et al. There is much less coverage of the hydrophobic patch by interfacing residues (Fig. 3C), and some of those residue responsible for interfacing in the crystal structure could theoretically be mutated without impacting the binding surface; SER888 particularly comes to mind as a candidate for alanine mutagenesis to prove the binding interface as it is interfacing in the crystal structure but not the model.
+
+#### Conservation of negatively charged residues at aa864/866
+
+NMR titration data from Song 2020, showed that lysine-K48 on Ubiquitin, when titrated with the N4BP1 CUE domain, exhibits quite a large chemical shift. Considering that the LYS48 is not part of the binding interaction in the crystal structure, it must be involved as part of transition state where the CUE domain is guided to the hydrophobic patch. Previous research has shown that CUE domain has extremely low binding aﬃnity to K48A ubiquitin mutant <a href="#ref-3">[3]</a>,<a href="#ref-2">[2]</a>,<a href="#ref-9">[9]</a>. This report would suggest that either ASP864 or GLU866 would be good candidates for site-directed mutagenesis to determine which residues are involved in forming a transition state with LYS48. Both of these residues, point in the direction of LYS48 in the crystal structure, and any one of them might serve as a potential axis of rotation to place the CUE domain into the hydrophobic patch. Further exploration of this transition state would be of interest as this mechanism could also lead to the inhibition of LYS48 polyubiquitination.
+
+#### α3-helix is much lighter on average compared to other CUE/CUBAN domains
+
+As data from the MSA has shown, the conservation of the characteristics of the terminal α3-helix - that being mainly its small size - are crucially important for the N4BP1 CUE domain to be able to bind to M1-linked Ub. If the terminal α3-helix were any larger, it would simply not fit, and disrupt the interaction on the hydrophobic patch. Table 1 shows the average molecular weight of an amino acid in any of the three helices present some other related CUE/CUBAN domains.
+
+| Protein       | Domain | α1-helix | α2-helix | α3-helix | PDB  |
+|---------------|--------|----------|----------|----------|------|
+| N4BP1_Mouse   | CUE    | 111.4    | 112.1    | 101.5    | 8t48 |
+| CUE2_Yeast    | CUE    | 118.5    | 119.4    | 107.8    | 1otr |
+| KHNYN_Human   | CUBAN  | 133.9    | 128.4    | 116.5    | 2n5m |
+| ASCC2_Human   | CUE    | 108.6    | 114.8    | 116.7    | 2di0 |
+| TOLLIP_Human  | CUE    | 119.6    | 114.3    | 107.2    | 1wgl |
+| VPS9_Yeast    | CUE    | 119.7    | 110.3    | 110.3    | 1mn3 |
+
+<p style="font-size: 0.75em; line-height: 1.6;">
+  <strong>Table 1:</strong> Average molecular weights of amino acid residues in the helices of CUE/CUBAN domains
+</p>
+
+As you can see, the α3-helix in the N4BP1 CUE domain is the lightest of them all by a nominal margin. This suggests it might be possible to detect which region of a domain is most likely to interact with the basal region between two M1-linked ubiquitin. Since due to steric hinderances, it is not possible to have helices that are any larger than the CUE α3-helix. Structures could potentially be filtered by this quality, to be identified as candidates for binding to M1-linked ubiquitin.
+
+### Conclusion
+
+The CUE domain of N4BP1 has a highly conserved binding mode that facilitates an interaction with hydrophobic amino acid residues by placing its small α3-helix in the basal region of the M1-linkage. This is what allows it to form not only favourable hydrophobic interactions with the ubiquitin hydrophobic patch, but also forms a stabilising salt-bridge between Ub-ARG42 and CUE-ASP893. The results from the MSA are consistent with what would be expected by the conservation of important regions present in the crystal structure obtained by Gitlin et al. Next steps would be to see if there are further interactions via other N4BP1 domains and how a transition state might form around LYS48. It will be interesting to see how research around N4BP1 develps, especially as to whether further oligomerization of the RNase domain might be possible beyond a dimer [2] and the potential implications that come when binding to large poly-ubiquitin chains.
+
+### Methods
+#### Multiple sequence alignments
+
+MSAs obtained using BLAST<a href="#ref-10">[10]</a> and MUSCLE<a href="#ref-11">[11]</a>. Some low coverage/occupancy sequences such as those used in Fig. 3H had to be aligned by hand based oﬀ alignments from Song 2020. Sequences were obtained by running a BLAST of the Mouse N4BP1 CUE domain 845-893 with 1000 max target sequences, expect threshold 0.05, word size 5, scoring matrix BLOSUM62. Top 300 non-isoform N4BP1 sequences were selected to be manually refined and processed using MSA. ALVIS<a href="#ref-8">[8]</a> and Jalview<a href="#ref-12">[12]</a> were used to produce Figure 3 and view MSAs.
+
+#### Structure prediction & protein visualisation
+
+AlphaFold 3<a href="#ref-1">[1]</a> web-server was used to predict N4BP1 structure. Full length Mouse N4BP1 was sent for struture prediction, as well as each individual domain using domain boundaries from Kliza et al. Molecular graphics and analyses performed with UCSF ChimeraX<a href="#ref-13">[13]</a>, developed by the Resource for Biocomputing, Visualisation, and Informatics at the University of California, San Francisco, with support from National Institutes of Health R01-GM129325 and the Oﬃce of Cyber Infrastructure and Computational Biology, National Institute of Allergy and Infectious Diseases.
+
+## References
+<p id="ref-1" style="font-size: 0.75em; line-height: 1.6;">
+  [1] Josh Abramson et al. “Accurate Structure Prediction of Biomolecular Interactions with AlphaFold 3”. In: Nature 630.8016 (June 2024), pp. 493–500. DOI: 10.1038/s41586-024-07487-w.
+</p>
+<p id="ref-2" style="font-size: 0.75em; line-height: 1.6;">
+  [2] Katarzyna W. Kliza et al. “N4BP1 Functions as a Dimerization-Dependent Linear Ubiquitin Reader Which Regulates TNF Signalling”. In: Cell Death Discovery 10.1 (Apr. 2024), pp. 1–15. DOI: 10.1038/s41420-024-01913-8.
+</p>
+<p id="ref-3" style="font-size: 0.75em; line-height: 1.6;">
+  [3] Wei Song. “Structural and Functional Characterization of a Novel Regulator of Linear Ubiquitin Chain Formation”. PhD thesis.
+</p>
+<p id="ref-4" style="font-size: 0.75em; line-height: 1.6;">
+  [4] Katarzyna Kliza and Koraljka Husnjak. "Resolving the Complexity of Ubiquitin Networks”. In: Frontiers in Molecular Biosciences 7 (Feb. 2020), p. 21. DOI: 10.3389/fmolb.2020.00021.
+</p>
+<p id="ref-5" style="font-size: 0.75em; line-height: 1.6;">
+  [5] Alexander D. Gitlin et al.“N4BP1 Coordinates Ubiquitin-Dependent Crosstalk within the IκB Kinase Family to Limit Toll-like Recep-
+  tor Signaling and Inflammation”. In: Immunity 57.5 (May 2024), 973–986.e7. DOI: 10.1016/j.immuni.2024.04.004.
+  [6] Jason E. Donald, Daniel W. Kulp, and William
+  F. DeGrado. “Salt Bridges: Geometrically Specific, Designable Interactions”. In: Proteins: Structure, Function, and Bioinformatics 79.3 (Mar. 2011),pp. 898–915. DOI: 10.1002/prot.22927.
+</p>
+<p id="ref-7" style="font-size: 0.75em; line-height: 1.6;">
+  [7] Katherine Henzler-Wildman and Dorothee Kern. “Dynamic Personalities of Proteins”. In: Nature 450.7172 (Dec. 2007), pp. 964–972. DOI: 10.1038/nature06522.
+</p>
+<p id="ref-8" style="font-size: 0.75em; line-height: 1.6;">
+  [8] Marek Kultys et al. “Sequence Bundles: A Novel Method for Visualising, Discovering and Exploring Sequence Motifs”. In: BMC Proceedings 8.S2 (Aug. 2014), S8. DOI: 10.1186/1753-6561-8-S2-S8.
+</p>
+<p id="ref-9" style="font-size: 0.75em; line-height: 1.6;">
+  [9] Richard S Kang et al. “Solution Structure of a CUE-Ubiquitin Complex Reveals a Conserved Mode of Ubiquitin Binding”. In: Cell 113.5 (May 2003), pp. 621–630. DOI: 10.1016/S0092-8674(03)00362-3.
+</p>
+<p id="ref-10" style="font-size: 0.75em; line-height: 1.6;">
+  [10] S. Altschul. “Gapped BLAST and PSI-BLAST: A New Generation of Protein Database Search Programs”. In: Nucleic Acids Research 25.17 (Sept. 1997), pp. 3389–3402. DOI: 10.1093/nar/25.17.3389.
+</p>
+<p id="ref-11" style="font-size: 0.75em; line-height: 1.6;">
+  [11] Fabio Madeira et al. “The EMBL-EBI Job Dispatcher Sequence Analysis Tools Framework in 2024”. In: Nucleic Acids Research 52.W1 (July 2024), W521–W525. DOI: 10.1093/nar/gkae241.
+</p>
+<p id="ref-12" style="font-size: 0.75em; line-height: 1.6;">
+  [12] Andrew M. Waterhouse et al. “Jalview Version 2 a Multiple Sequence Alignment Editor and Analysis Workbench”. In: Bioinformatics 25.9 (May 2009), pp. 1189–1191. DOI: 10.1093/bioinformatics/btp033.
+</p>
+<p id="ref-13" style="font-size: 0.75em; line-height: 1.6;">
+  [13] Eric F. Pettersen et al. “UCSF ChimeraX: Structure Visualization for Researchers, Educators, and Developers”. In: Protein Science 30.1 (Jan. 2021), pp. 70–82. DOI: 10.1002/pro.3943.
+</p>
