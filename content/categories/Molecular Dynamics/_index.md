@@ -6,5 +6,4 @@ image: "MD.jpg"
 style:
     background: "#da10de"
     color: "#fff"
-draft: true
 ---
