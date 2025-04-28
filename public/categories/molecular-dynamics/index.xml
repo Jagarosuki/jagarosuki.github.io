@@ -25,15 +25,27 @@
         <description>&lt;img src="http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/coms_ub.png" alt="Featured image of post Analysing Conformational States of Ubiquitin using MD Simulations" /&gt;&lt;p style=&#34;font-size: 0.75em; line-height: 1.6;&#34;&gt;
 &lt;strong&gt;Title Card:&lt;/strong&gt; Calculating torsion angles based of Centres of Mass (COMs) of ubiquitin monomers. COM 1 (green) aa1-36; COM 2 (red) aa37-70; COM 3 (blue) aa77-113; COM 4 (orange) aa113-146.
 &lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;Recently I have been quite interested in the conformational landscape that is possible with different ubiquitin chains and linkages. Naturally as an undergraduate student I don&amp;rsquo;t have access to a lab to perform SAXS experiments for instance so I figured I should try to run some simulations instead. I&amp;rsquo;m not sure anything could prepared me for the torment of trying to compile or even use software packages with no programming experience at all.&lt;/p&gt;
 &lt;h2 id=&#34;what-are-molecular-dynamics-md-simulations&#34;&gt;What are Molecular Dynamics (MD) Simulations?
-&lt;/h2&gt;&lt;h3 id=&#34;forcefields&#34;&gt;Forcefields
+&lt;/h2&gt;&lt;p&gt;Molecular Dynamics (MD) Simulations are&lt;/p&gt;
+&lt;h3 id=&#34;forcefields&#34;&gt;Forcefields
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;$E\left(r^N\right) = E_{\text{bonds}} + E_{\text{angles}} + E_{\text{dihedrals}} + E_{\text{nonbonded}}$&lt;/p&gt;
-&lt;p&gt;$E_{\text{bonds}} = \sum_{\text{bonds}} K_r (r - r_0)^2$&lt;/p&gt;
-&lt;p&gt;$E_{\text{angles}} = \sum_{\text{angles}} k_\theta (\theta - \theta_0)^2$&lt;/p&gt;
-&lt;p&gt;$E_{\text{dihedrals}} = \sum_{\text{dihedrals}} \left( \frac{V_1}{2} [1 + \cos(\phi - \phi_1)] + \frac{V_2}{2} [1 - \cos(2\phi - \phi_2)] + \frac{V_3}{2} [1 + \cos(3\phi - \phi_3)] + \frac{V_4}{2} [1 - \cos(4\phi - \phi_4)] \right)$&lt;/p&gt;
-&lt;p&gt;$E_{\text{nonbonded}} = \sum_{i&amp;gt;j} f_{ij} \left( \frac{A_{ij}}{r_{ij}^{12}} - \frac{C_{ij}}{r_{ij}^6} + \frac{q_i q_j e^2}{4 \pi \epsilon_0 r_{ij}} \right)$&lt;/p&gt;
-&lt;p&gt;$\text{with the combining rules} \quad A_{ij} = \sqrt{A_{ii} A_{jj}} \quad \text{and} \quad C_{ij} = \sqrt{C_{ii} C_{jj}}$&lt;/p&gt;&lt;/blockquote&gt;
+$$E\left(r^N\right) = E_{\text{bonds}} + E_{\text{angles}} + E_{\text{dihedrals}} + E_{\text{nonbonded}}$$$$E_{\text{bonds}} = \sum_{\text{bonds}} K_r (r - r_0)^2$$$$E_{\text{angles}} = \sum_{\text{angles}} k_\theta (\theta - \theta_0)^2$$$$E_{\text{dihedrals}} = \sum_{\text{dihedrals}} \left( \frac{V_1}{2} [1 + \cos(\phi - \phi_1)] + \frac{V_2}{2} [1 - \cos(2\phi - \phi_2)] + \frac{V_3}{2} [1 + \cos(3\phi - \phi_3)] + \frac{V_4}{2} [1 - \cos(4\phi - \phi_4)] \right)$$$$E_{\text{nonbonded}} = \sum_{i&gt;j} f_{ij} \left( \frac{A_{ij}}{r_{ij}^{12}} - \frac{C_{ij}}{r_{ij}^6} + \frac{q_i q_j e^2}{4 \pi \epsilon_0 r_{ij}} \right)$$$$\text{with the combining rules} \quad A_{ij} = \sqrt{A_{ii} A_{jj}} \quad \text{and} \quad C_{ij} = \sqrt{C_{ii} C_{jj}}$$&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/rmsd.png&#34;
+	width=&#34;1392&#34;
+	height=&#34;836&#34;
+	srcset=&#34;http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/rmsd_hu_eafa6a94bb7029d0.png 480w, http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/rmsd_hu_fcf769c70082455b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Click on figure for higher resolution&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;399px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
             src=&#34;https://www.youtube.com/embed/tw-65UvhOhs&#34; 
@@ -43,6 +55,34 @@
     &lt;/iframe&gt;
 &lt;/div&gt;
 
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_landscape_trace.jpg&#34;
+	width=&#34;1122&#34;
+	height=&#34;944&#34;
+	srcset=&#34;http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_landscape_trace_hu_488060c7202fe0d0.jpg 480w, http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_landscape_trace_hu_8feba89617fcbbd9.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Click on figure for higher resolution&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;118&#34;
+		data-flex-basis=&#34;285px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_rotation.jpg&#34;
+	width=&#34;1044&#34;
+	height=&#34;948&#34;
+	srcset=&#34;http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_rotation_hu_4b9cc2c14a1de7db.jpg 480w, http://localhost:1313/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_rotation_hu_960c34a3a73909ff.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Click on figure for higher resolution&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;110&#34;
+		data-flex-basis=&#34;264px&#34;
+	
+&gt;&lt;/p&gt;
 </description>
         </item>
         

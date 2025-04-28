@@ -20,4 +20,4 @@ menu:
 comments: false
 ---
 
-You can follow Nilton on the following social media:
+You can follow Nilton on social media.

@@ -3,7 +3,7 @@ author: "Nilton Aranda"
 title: "Nedd 4 Binding Protein 1 (N4BP1) CUE domain recognition of M1-linked Ubiquitin"
 date: "2025-02-19"
 description: >
-  Research project: Stieglitz Lab - Blizzard Institute
+  Internship Research Project
 categories:
   - "Personal Research"
   - ""

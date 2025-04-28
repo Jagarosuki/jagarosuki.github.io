@@ -447,12 +447,21 @@
 </h2><p>Molecular Dynamics (MD) Simulations are</p>
 <h3 id="forcefields">Forcefields
 </h3><blockquote>
-<p>$E\left(r^N\right) = E_{\text{bonds}} + E_{\text{angles}} + E_{\text{dihedrals}} + E_{\text{nonbonded}}$</p>
-<p>$E_{\text{bonds}} = \sum_{\text{bonds}} K_r (r - r_0)^2$</p>
-<p>$E_{\text{angles}} = \sum_{\text{angles}} k_\theta (\theta - \theta_0)^2$</p>
-<p>$E_{\text{dihedrals}} = \sum_{\text{dihedrals}} \left( \frac{V_1}{2} [1 + \cos(\phi - \phi_1)] + \frac{V_2}{2} [1 - \cos(2\phi - \phi_2)] + \frac{V_3}{2} [1 + \cos(3\phi - \phi_3)] + \frac{V_4}{2} [1 - \cos(4\phi - \phi_4)] \right)$</p>
-<p>$E_{\text{nonbonded}} = \sum_{i&gt;j} f_{ij} \left( \frac{A_{ij}}{r_{ij}^{12}} - \frac{C_{ij}}{r_{ij}^6} + \frac{q_i q_j e^2}{4 \pi \epsilon_0 r_{ij}} \right)$</p>
-<p>$\text{with the combining rules} \quad A_{ij} = \sqrt{A_{ii} A_{jj}} \quad \text{and} \quad C_{ij} = \sqrt{C_{ii} C_{jj}}$</p></blockquote>
+$$E\left(r^N\right) = E_{\text{bonds}} + E_{\text{angles}} + E_{\text{dihedrals}} + E_{\text{nonbonded}}$$$$E_{\text{bonds}} = \sum_{\text{bonds}} K_r (r - r_0)^2$$$$E_{\text{angles}} = \sum_{\text{angles}} k_\theta (\theta - \theta_0)^2$$$$E_{\text{dihedrals}} = \sum_{\text{dihedrals}} \left( \frac{V_1}{2} [1 + \cos(\phi - \phi_1)] + \frac{V_2}{2} [1 - \cos(2\phi - \phi_2)] + \frac{V_3}{2} [1 + \cos(3\phi - \phi_3)] + \frac{V_4}{2} [1 - \cos(4\phi - \phi_4)] \right)$$$$E_{\text{nonbonded}} = \sum_{i>j} f_{ij} \left( \frac{A_{ij}}{r_{ij}^{12}} - \frac{C_{ij}}{r_{ij}^6} + \frac{q_i q_j e^2}{4 \pi \epsilon_0 r_{ij}} \right)$$$$\text{with the combining rules} \quad A_{ij} = \sqrt{A_{ii} A_{jj}} \quad \text{and} \quad C_{ij} = \sqrt{C_{ii} C_{jj}}$$</blockquote>
+<p><img src="/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/rmsd.png"
+	width="1392"
+	height="836"
+	srcset="/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/rmsd_hu_eafa6a94bb7029d0.png 480w, /p/analysing-conformational-states-of-ubiquitin-using-md-simulations/rmsd_hu_fcf769c70082455b.png 1024w"
+	loading="lazy"
+	
+		alt="Click on figure for higher resolution"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="166"
+		data-flex-basis="399px"
+	
+></p>
 <div class="video-wrapper">
     <iframe loading="lazy" 
             src="https://www.youtube.com/embed/tw-65UvhOhs" 
@@ -462,6 +471,34 @@
     </iframe>
 </div>
 
+<p><img src="/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_landscape_trace.jpg"
+	width="1122"
+	height="944"
+	srcset="/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_landscape_trace_hu_488060c7202fe0d0.jpg 480w, /p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_landscape_trace_hu_8feba89617fcbbd9.jpg 1024w"
+	loading="lazy"
+	
+		alt="Click on figure for higher resolution"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="118"
+		data-flex-basis="285px"
+	
+></p>
+<p><img src="/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_rotation.jpg"
+	width="1044"
+	height="948"
+	srcset="/p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_rotation_hu_4b9cc2c14a1de7db.jpg 480w, /p/analysing-conformational-states-of-ubiquitin-using-md-simulations/diUb_rotation_hu_960c34a3a73909ff.jpg 1024w"
+	loading="lazy"
+	
+		alt="Click on figure for higher resolution"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="110"
+		data-flex-basis="264px"
+	
+></p>
 
 </section>
 
